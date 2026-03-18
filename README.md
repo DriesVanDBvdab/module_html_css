@@ -1,2 +1,2 @@
-# Vdab html/css cusus
-Deze repository bevat de oefeningen voor de html/css cusus van de vdab.
+# Vdab html module
+Deze repository bevat de oefeningen voor de html module van de vdab.
