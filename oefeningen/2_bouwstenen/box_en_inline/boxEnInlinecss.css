@@ -1,0 +1,34 @@
+h1{
+    color: #4888c7;
+}
+h2{
+    color: #4888c7;
+}
+div{
+    color: #ffffff;
+    background-color: #4888c7;
+}
+.update{
+    background-color: #4888c7;
+    color: #ffffff;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+.actie{
+    display: inline-block;
+    background-color: #49b4aa;
+    color: #ffffff;
+    padding: 20px 10px;
+}
+.orange{
+    background-color: #ff8502;
+}
+.underlineCLass{
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #ff8502;
+}
+
+body{
+    width: max-content;
+}
