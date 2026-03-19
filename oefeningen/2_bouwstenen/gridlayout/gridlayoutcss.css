@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "Hoofd Navigatie"
+        "Inhoud Inhoud"
+        "Zijnotitie Voetnoot";
+}
+header{
+    grid-area: Hoofd;
+    background-color: green;
+}
+nav{
+    grid-area: Navigatie;
+    background-color: yellow;
+}
+main{
+    grid-area: Inhoud;
+    background-color: red;
+}
+aside{
+    grid-area: Zijnotitie;
+    background-color: cyan;
+}
+footer{
+    grid-area: Voetnoot;
+    background-color: magenta;
+}
