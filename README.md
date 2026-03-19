@@ -5,4 +5,5 @@ Onder oefeningen vind je de folder [html](oefeningen/html) voor de HTML oefening
 ## 2. CSS oefeningen
 Onder oefeningen vind je de folder [css](oefeningen/css) voor de css oefeningen.</br>
 ## 3. HTML/CSS oefeningen
+Onder oefeningen vind je de folder [html/css](oefeningen/html_css) voor de combinatie oefening van HTML en css.</br>
 
