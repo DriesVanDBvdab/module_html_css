@@ -1,0 +1,122 @@
+.grid1_1{
+    background-color: white;
+    grid-area: grid_1_1;
+    border: 1px solid #000000;
+}
+.grid1_2{
+    background-color: yellow;
+    grid-area: grid_1_2;
+    border: 1px solid #000000;
+}
+.grid1_3{
+    background-color: darkblue;
+    grid-area: grid_1_3;
+    border: 1px solid #000000;
+}
+.grid1_4{
+    background-color: #ff5050;
+    grid-area: grid_1_4;
+    border: 1px solid #000000;
+}
+.grid1_5{
+    background-color: yellow;
+    grid-area: grid_1_5;
+    border: 1px solid #000000;
+}
+.grid1_6{
+    background-color: white;
+    grid-area: grid_1_6;
+    border: 1px solid #000000;
+}
+.grid2_1{
+    background-color: white;
+    grid-area: grid_2_1;
+    border: 1px solid #000000;
+}
+.grid2_2{
+    background-color: white;
+    grid-area: grid_2_2;
+    border: 1px solid #000000;
+}
+.grid2_3{
+    background-color: white;
+    grid-area: grid_2_3;
+    border: 1px solid #000000;
+}
+.grid2_4{
+    background-color: white;
+    grid-area: grid_2_4;
+    border: 1px solid #000000;
+}
+.grid2_5{
+    background-color: darkblue;
+    grid-area: grid_2_5;
+    border: 1px solid #000000;
+}
+.grid2_6{
+    background-color: #ff5050;
+    grid-area: grid_2_6;
+    border: 1px solid #000000;
+}
+.grid2_7{
+    background-color: white;
+    grid-area: grid_2_7;
+    border: 1px solid #000000;
+}
+.grid3_1{
+    background-color: white;
+    grid-area: grid_3_1;
+    border: 1px solid #000000;
+}
+.grid3_2{
+    background-color: white;
+    grid-area: grid_3_2;
+    border: 1px solid #000000;
+}
+.grid3_3{
+    background-color: #ff5050;
+    grid-area: grid_3_3;
+    border: 1px solid #000000;
+}
+.grid3_4{
+    background-color: white;
+    grid-area: grid_3_4;
+    border: 1px solid #000000;
+}
+.grid3_5{
+    background-color: yellow;
+    grid-area: grid_3_5;
+    border: 1px solid #000000;
+}
+.grid4_2{
+    background-color: darkblue;
+    grid-area: grid_4_2;
+    border: 1px solid #000000;
+}
+.grid4_3{
+    background-color: yellow;
+    grid-area: grid_4_3;
+    border-width: 5px;
+}
+.grid4_4{
+    background-color: white;
+    grid-area: grid_4_4;
+    border: 1px solid #000000;
+}
+.grid4_5{
+    background-color: white;
+    grid-area: grid_4_5;
+    border: 1px solid #000000;
+}
+body{
+    display: grid;
+    width: max-content;
+    border: 1px solid #000000;
+    grid-template-columns: 40px 40px 120px 40px 120px 40px 40px;
+    grid-template-rows: 80px 80px 40px 40px;
+    grid-template-areas: 
+        "grid_1_1 grid_1_2 grid_1_3 grid_1_4 grid_1_4 grid_1_5 grid_1_6" 
+        "grid_2_1 grid_2_2 grid_2_3 grid_2_4 grid_2_5 grid_2_6 grid_2_7"
+        "grid_3_1 grid_3_2 grid_3_3 grid_3_3 grid_3_4 grid_3_5 grid_2_7"
+        "grid_3_1 grid_4_2 grid_4_3 grid_4_3 grid_4_4 grid_4_4 grid_4_5";
+}
