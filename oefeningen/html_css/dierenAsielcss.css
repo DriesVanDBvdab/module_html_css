@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "vdab dierenasiel font";
+    src: url("../../Bronmap/FlandersArtSans-Regular.woff");
+}
+.banner{
+    font-family: 'vdab dierenasiel font';
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #fefefe;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ccf2ed, #189585);
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+.menu>li{
+    list-style-type: none;
+}
+.menu>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 1.5em 1rem;
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #189585;
+    text-align: center;
+}
+.menu>li>a{
+    background-color: #25a998;
+}
