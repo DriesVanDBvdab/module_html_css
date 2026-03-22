@@ -12,11 +12,14 @@
     background-image: linear-gradient(to bottom, #ccf2ed, #189585);
 }
 .menu{
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
 }
 .menu>li{
     list-style-type: none;
+    margin: 0;
 }
 .menu>li>a{
     text-decoration: none;
@@ -30,4 +33,71 @@
 }
 .menu>li>a{
     background-color: #25a998;
+}
+.menu>li:last-child>a {
+    text-align: right;
+}
+.menu>li>a.active{
+    background-color: #c99339;
+}
+.menu>li:last-child>a{
+    text-align: right;
+}
+.menu>li>a:hover{ 
+    background-color: #25a998; 
+}
+#title {
+    font-size: 2em;
+    color: #189585;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    grid-area: header;
+}
+#title>h2 {
+    display: inline;
+}
+ul.lijstDetail {
+    font-size: 0.8em;
+    color: #2f2d2e;
+}
+ul.lijstDetail>li{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ul.lijstDetail>li:nth-child(even) {
+    background-color: #f8fbfb;
+}
+ul.lijstDetail>li>div {
+    padding: 10px;
+}
+#beslist {
+    text-align: center;
+    padding: 25px;
+    grid-area:  beslist;
+}
+#beslist>.button {
+    border: 0px;
+    background-color: #c99339;
+    font-family: inherit;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+main#detailpagina {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: 
+        "header header"
+        "foto details"
+        "beslist beslist";
+    column-gap: 25px;
+    margin: 50px;
+}
+#foto {
+    grid-area: foto;
+}
+#details {
+    grid-area: details;
 }
