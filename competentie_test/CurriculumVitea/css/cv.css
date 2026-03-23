@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Oswald bold";
+    src: url("fonts/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: "Oswald Light";
+    src: url("fonts/Oswald-Light.ttf");
+}
+@font-face {
+    font-family: "Oswald Regular";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+html,body {
+    display: flex;
+    justify-content: center; 
+    background-color: #757575;
+}
+.site {
+    width: 50vw;
+    background-color: white;
+    margin: 0 auto;
+}
+h1{
+    font-family: "Oswald Bold";
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+header {
+    text-align: center;
+}
+.beschrijving {
+    font-family: "Oswald Light";
+    font-style: italic;
+    padding: 0;
+    margin: 10px 25px 20px 25px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #132f6a;
+}
+.informatie {
+    background-image: url("../img/achtergrond.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.informatieLijst {
+  list-style: none;
+  text-align: center;
+  font-family: "Oswald Regular";
+  margin: 0;
+  padding: 0;
+}
+ul.informatieLijst>li{
+    list-style-type: none;
+}
+.infoBanner {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Oswald Bold";
+    font-weight: 600;
+    text-align: center ;
+    background-color: #1755dc;
+    width: 50vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.infoItem {
+    background-color: #6b6a6a5d;
+    margin: 25px 0px;
+    align-items: center;
+    justify-items: center; 
+}
+.infoItem>ul {
+    margin: 0;
+    padding: 0;
+}
+.infoItem>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#infoBeschrijving {
+    align-items: center;
+    gap: 14px;
+    padding: 20px;
+    display: grid;
+    border: #132f6a 2px;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-areas: 
+        "profielFoto persoonlijkeData links"; */
+}
+#profielimg {
+    max-width: 100px;
+}
+/* .profielFoto {
+    grid-area: profielFoto;
+}
+.persoonlijkeData {
+    grid-area: persoonlijkeData;
+}
+.sociaLinks {
+    grid-area: links;
+} */
+.linkImg {
+    max-width: 30px;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Oswald Bold";
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+}
